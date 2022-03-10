@@ -13,6 +13,6 @@ We found the integration of decision-making in the first tab is crucial because 
    Our comic aims to raise awareness about human behavior and its effects on nature. For instance, through an open conversation about nature vs. humans, the users could appeal to the issue of global warming. And so, the user will examine questions such as what are the ways that will save our planet before it is too late?
 
 ## Process:
-
+   We created the illustrations for our project and then started working iteratively on the presentation of the drawings as a web comic. In our final site, we used a lot of libraries to implemnet different interactions and animations. The starting page enables the user to make one of two choices that will affect the order of the comic. A grab and drop interaction was implemented on this page using a library. The actual comic was implemented as a vertical photo carousel using a library. More libraries were used to animate the fading in and out, growing, and shrinking animations of elements on the page as the user progresses through the comic.
 
 ## Reflection & Evaluation:
