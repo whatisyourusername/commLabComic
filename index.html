@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Comic Strip</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/splide.min.css" />
+    <!-- adding css animation library  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- adding jquery library  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- drag and drop library  -->
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+  </head>
+
+  <body>
+    <!-- welome screen  -->
+    <div class="welcomeScreenWrapper">
+      <div class="welcomeScreen">
+        <div id="outer-dropzone" class="dropzone">Drop it here</div>
+        <div id="yes-drop" class="drag-drop firstDrag">
+          <img src="./images/human.png" />
+        </div>
+        <div id="yes-drop" class="drag-drop floatright">
+          <img src="./images/monkey.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- storyline for monkeys least evolved  -->
+    <div id="monkeysplide">
+      <div class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene1.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene2.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainerbig">
+                <img src="images/scene3.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene4.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene5.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene6.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainerbig">
+                <img src="images/scene7.jpg" alt="" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- storyline for humans least evolved  -->
+    <div id="humansplide">
+      <div class="splide splide2">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene5.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene6.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainerbig">
+                <img src="images/scene7.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene1.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene2.jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgcontainer">
+                <img src="images/scene3.jpg" alt="" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
+  </body>
+</html>
