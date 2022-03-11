@@ -18,3 +18,4 @@ We found the integration of decision-making in the first tab is crucial because 
    'The Monkey Apocalypse' ran through multiple idea developments, and we aimed to work on ways of interactivity that resonate with our theme and message. https://github.com/SeifAmr/Comics-project shares our development phases. 'The Monkey Apocalypse' started as a classically styled comic with scroll motion revealing the storyline. Our next step was to involve interactivity to have suspense as an aspect of the story. Suspense as an element is essential because we thought it would strengthen the user's involvement in the comic. Lastly, the implementation of decision-making is a powerful tool because it connects the user to a world in which he is a spectator.
 
 ## Reflection & Evaluation:
+   
