@@ -14,5 +14,7 @@ We found the integration of decision-making in the first tab is crucial because 
 
 ## Process:
    We created the illustrations for our project and then started working iteratively on the presentation of the drawings as a web comic. In our final site, we used a lot of libraries to implemnet different interactions and animations. The starting page enables the user to make one of two choices that will affect the order of the comic. A grab and drop interaction was implemented on this page using a library. The actual comic was implemented as a vertical photo carousel using a library. More libraries were used to animate the fading in and out, growing, and shrinking animations of elements on the page as the user progresses through the comic.
+   
+   'The Monkey Apocalypse' ran through multiple idea developments, and we aimed to work on ways of interactivity that resonate with our theme and message. https://github.com/SeifAmr/Comics-project shares our development phases. 'The Monkey Apocalypse' started as a classically styled comic with scroll motion revealing the storyline. Our next step was to involve interactivity to have suspense as an aspect of the story. Suspense as an element is essential because we thought it would strengthen the user's involvement in the comic. Lastly, the implementation of decision-making is a powerful tool because it connects the user to a world in which he is a spectator.
 
 ## Reflection & Evaluation:
